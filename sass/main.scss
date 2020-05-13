@@ -1,21 +1,20 @@
 // Main Sass input files
-
 @import './abstracts/mixins';
 @import './abstracts/variables';
 @import './base/reset';
 @import './base/typography';
 @import './components/buttons';
-@import './components/carousel';
-@import './components/cover';
-@import './components/dropdown';
+// @import './components/carousel';
+// @import './components/cover';
+// @import './components/dropdown';
 @import './layout/footer';
 @import './layout/forms';
-@import './layout/grid';
+// @import './layout/grid';
 @import './layout/header';
-@import './layout/navigation';
-@import './layout/sidebar';
-@import './pages/contact';
-@import './pages/home';
+// @import './layout/navigation';
+// @import './layout/sidebar';
+// @import './pages/contact';
+@import './pages/main';
 @import './themes/admin';
 @import './themes/theme';
-@import './vendors/foundation';
+// @import './vendors/foundation';

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ASCA,AAAA,IAAI,AAAC,CACD,UAAU,CPDI,IAAI,COCW,UAAU,CACvC,KAAK,CPAO,IAAI,COAM,UAAU,CAChC,MAAM,CAAE,eAAe,CAC1B",
     "sources": [
         "../../sass/main.scss",
         "../../sass/abstracts/_mixins.scss",
@@ -8,20 +8,12 @@
         "../../sass/base/_reset.scss",
         "../../sass/base/_typography.scss",
         "../../sass/components/_buttons.scss",
-        "../../sass/components/_carousel.scss",
-        "../../sass/components/_cover.scss",
-        "../../sass/components/_dropdown.scss",
         "../../sass/layout/_footer.scss",
         "../../sass/layout/_forms.scss",
-        "../../sass/layout/_grid.scss",
         "../../sass/layout/_header.scss",
-        "../../sass/layout/_navigation.scss",
-        "../../sass/layout/_sidebar.scss",
-        "../../sass/pages/_contact.scss",
-        "../../sass/pages/_home.scss",
+        "../../sass/pages/_main.scss",
         "../../sass/themes/_admin.scss",
-        "../../sass/themes/_theme.scss",
-        "../../sass/vendors/_foundation.scss"
+        "../../sass/themes/_theme.scss"
     ],
     "names": [],
     "file": "main.min.css"
