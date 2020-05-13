@@ -1,0 +1,23 @@
+body {
+  background: #000 !important;
+  color: #fff !important; }
+
+.home {
+  background: url("../../assets/graphics/background_img.jpg"); }
+
+.plans .row {
+  align-items: center; }
+.plans .card {
+  background: #101010 !important;
+  border: none;
+  color: #fff; }
+  .plans .card span {
+    margin-right: 2em;
+    margin-left: 2em; }
+  .plans .card-items {
+    display: flex;
+    align-items: center;
+    margin: 10% 3px !important;
+    align-content: space-between !important; }
+    .plans .card-items li {
+      font-size: 15px; }

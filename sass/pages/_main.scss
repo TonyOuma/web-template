@@ -2,5 +2,36 @@
 body {
     background: $background-dark !important;
     color: $primary-white !important;
-    margin: 0 7% !important;
+    // margin: 0 7% !important;
 }
+
+.home {
+    background: url("../../assets/graphics/background_img.jpg");
+}
+
+// plans
+.plans {
+    .row {
+        align-items: center;
+    }
+    .card {
+        background: #101010 !important;
+        border: none;
+        color: $primary-white;
+        span {
+            margin-right: 2em;
+            margin-left: 2em;
+        }
+        &-items {
+            display: flex;
+            align-items: center;
+            margin: 10% 3px !important;
+            align-content: space-between !important;
+            li {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.card-items {}
