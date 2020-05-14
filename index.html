@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.min.css">
+    <link rel="stylesheet" href="sass/main.css">
     <!-- foundation-sites -->
     <link rel="stylesheet" href="assets/css/vendors/foundation.min.css">
     <title>Site template</title>
@@ -12,8 +13,8 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="">
+            <ul class="menu align-center">
                 <li>Home</li>
                 <li>Plans</li>
                 <li>Services</li>
@@ -23,7 +24,7 @@
     </header>
     <main>
         <section class="home">
-            <h2>Membership Plans</h2>
+<!--            <h2>Membership Plans</h2>-->
             <div class="row expanded">
                 <div class="columns medium-4 small-12">column</div>
                 <div class="medium-4 small-12">column</div>
@@ -87,12 +88,33 @@
         </section>
 
         <!-- services -->
-        <section>
-            <h2>Our Services</h2>
+        <section id="services">
+            <h2><span>Our</span> Services</h2>
             <div class="row expanded">
-                <div class="columns medium-4 small-12">column</div>
-                <div class="medium-4 small-12">column</div>
-                <div class="medium-4 small-12">column</div>
+                
+                <div class="columns medium-4 small-12">
+                    <div class="card">
+                    <img src="assets/graphics/man.jpg" alt="services1">
+                    <h4>Males and Females</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ullam, distinctio, nulla libero dolor consectetur ipsam laboriosam voluptatibus obcaecati, magnam recusandae! Possimus neque earum quae.</p>
+                </div>
+                </div>
+                
+                <div class="columns medium-4 small-12">
+                    <div class="card">
+                    <img src="assets/graphics/woman.jpg" alt="services1">
+                    <h4>Instructor</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sapiente debitis porro, laborum quaerat facere minima laudantium modi in velit cupiditate suscipit dolorum, illo dolore.</p>
+                </div>
+                </div>
+                
+                <div class="columns medium-4 small-12">
+                    <div class="card">
+                    <img src="assets/graphics/woman1.jpg" alt="services1">
+                    <h4>Dietician</h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ea quos nostrum soluta provident ut autem tenetur, sit dolore vel. Reiciendis sapiente, accusantium rem voluptates.</p>
+                </div>
+                </div>
             </div>
         </section>
 
