@@ -23,14 +23,12 @@
         </nav>
     </header>
     <main>
-        <section class="home">
-<!--            <h2>Membership Plans</h2>-->
-            <div class="row expanded">
-                <div class="columns medium-4 small-12">column</div>
-                <div class="medium-4 small-12">column</div>
-                <div class="medium-4 small-12">column</div>
+        <div class="home">
+            <div class="row home-content">
+                <h2>Dare to Begin</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptate ex minus illum iusto assumenda consectetur, blanditiis, eos ullam ipsa quo sunt repellat ad voluptas! Necessitatibus in quia, laborum veritatis?</p>
             </div>
-        </section>
+        </div>
 
         <!-- plans -->
         <section class="plans">
@@ -92,7 +90,7 @@
             <h2><span>Our</span> Services</h2>
             <div class="row expanded">
                 
-                <div class="columns medium-4 small-12">
+                <div class="column medium-4 small-12">
                     <div class="card">
                     <img src="assets/graphics/man.jpg" alt="services1">
                     <h4>Males and Females</h4>
@@ -100,7 +98,7 @@
                 </div>
                 </div>
                 
-                <div class="columns medium-4 small-12">
+                <div class="medium-4 small-12">
                     <div class="card">
                     <img src="assets/graphics/woman.jpg" alt="services1">
                     <h4>Instructor</h4>
@@ -108,7 +106,7 @@
                 </div>
                 </div>
                 
-                <div class="columns medium-4 small-12">
+                <div class="medium-4 small-12">
                     <div class="card">
                     <img src="assets/graphics/woman1.jpg" alt="services1">
                     <h4>Dietician</h4>
@@ -126,8 +124,24 @@
         <div class="row expanded">
             <div class="columns medium-3 small-12">
                 <form>
-                    <input type="text" value="Name">
-                    <input type="email" value="Email">
+                    <input id="formName" type="text" value="Name">
+                    <input id="formEmail" type="email" value="Email">
+                    <fieldset>
+                        <legend>
+                            <label>Sex</label>
+                            <input id="formCheck1" type="checkbox"><label for="formCheckbox1">Male</label>
+                            <input id="formCheck2" type="checkbox"><label for="formCheckbox1">Female</label>
+                        </legend> 
+                        <legend>
+                            <label>Plan</label>
+                            <input id="formCheck3" type="checkbox"><label for="formCheckbox1">Basic</label>
+                            <input id="formCheck4" type="checkbox"><label for="formCheckbox1">Standard</label>
+                            <input id="formCheck5" type="checkbox"><label for="formCheckbox1">Premium</label>
+                        </legend>
+                    </fieldset>
+                    <button class="submit-button">Submit</button>
+                    
+                    
                 </form>
             </div>
             <div class="medium-offset-5 medium-4 small-12">

@@ -7,6 +7,14 @@ body {
 
 .home {
     background: url("../../assets/graphics/background_img.jpg");
+//    width: 40%;
+    
+    align-content: center;
+    
+    &-content{
+        width: 50%;
+        text-align: center;
+    }
 }
 
 section {

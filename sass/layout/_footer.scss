@@ -6,8 +6,24 @@
 footer{
     
     form{
-        background-color: none !important;
         input{
+            border: none !important;
+        }
+        #formName{
+            color: #fff;
+            background-color: transparent;
+            border-bottom: 1px solid white !important;
+        }    
+        #formEmail{
+            color: #fff;
+            background-color: transparent;
+            border-bottom: 1px solid white !important;
+        }
+        background-color: none !important;
+        fieldset{
+            label{
+              color:  #fff;  
+            }
             
         }
     }
@@ -16,6 +32,21 @@ footer{
     h2{
         text-align: center;
     }
+    
+    button:hover{
+        
+    }
+    .submit-button{
+        border: 1px solid #413F3F;
+                background: #101010;
+                border-radius: 16px;
+        padding: 0.6rem 1.5rem;
+                color: #fff !important;
+        
+        &:hover{
+            background-color: a7a7a7;
+        }
+            }
 }
 .copyright{
     padding: 3% 0;
