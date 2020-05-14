@@ -1,3 +1,16 @@
+.footer-bg {
+  background: #101010 !important; }
+
+footer {
+  padding: 4% 4%; }
+  footer form {
+    background-color: none !important; }
+  footer h2 {
+    text-align: center; }
+
+.copyright {
+  padding: 3% 0; }
+
 ul li {
   padding-right: 2rem; }
 
