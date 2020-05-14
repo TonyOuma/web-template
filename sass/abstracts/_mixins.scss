@@ -1,1 +1,6 @@
 // Sass mixin
+@mixin media-sm {
+    @media only screen and (max-width: 320px) and (max-device-width : 480px) {
+        @content;
+    }
+}
