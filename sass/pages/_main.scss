@@ -9,6 +9,13 @@ body {
     background: url("../../assets/graphics/background_img.jpg");
 }
 
+section {
+    padding: 0 4% !important;
+    h2{
+        text-align: center;
+    }
+}
+
 // plans
 .plans {
     .row {
@@ -34,4 +41,33 @@ body {
     }
 }
 
-.card-items {}
+#services{
+    padding: 0 2rem;
+    background: #a7a7a7;
+    
+    h2{
+        span{
+            color: #000;
+        }
+        padding: 2rem 2rem;
+    }
+    
+    .card{
+        h4{
+            padding-top: 2rem;
+        }
+        color: #000 !important;
+        background: none;
+        border: none;
+        align-items: center;
+        
+        p{
+            padding: 1rem 2rem;
+        }
+         img{
+        width: 50%;
+        border-radius: 50%;
+    }  
+    }
+ 
+}

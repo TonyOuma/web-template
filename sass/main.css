@@ -1,9 +1,17 @@
+ul li {
+  padding-right: 2rem; }
+
 body {
   background: #000 !important;
   color: #fff !important; }
 
 .home {
   background: url("../../assets/graphics/background_img.jpg"); }
+
+section {
+  padding: 0 4% !important; }
+  section h2 {
+    text-align: center; }
 
 .plans .row {
   align-items: center; }
@@ -21,3 +29,23 @@ body {
     align-content: space-between !important; }
     .plans .card-items li {
       font-size: 15px; }
+
+#services {
+  padding: 0 2rem;
+  background: #a7a7a7; }
+  #services h2 {
+    padding: 2rem 2rem; }
+    #services h2 span {
+      color: #000; }
+  #services .card {
+    color: #000 !important;
+    background: none;
+    border: none;
+    align-items: center; }
+    #services .card h4 {
+      padding-top: 2rem; }
+    #services .card p {
+      padding: 1rem 2rem; }
+    #services .card img {
+      width: 50%;
+      border-radius: 50%; }
